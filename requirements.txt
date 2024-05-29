@@ -1,14 +1,15 @@
-flask==2.0.2
+flask==3.0.3
+werkzeug==3.0.3
 wtforms==3.0.1
-flask-wtf==1.0.1
-elasticsearch~=8.6.0
+flask-wtf==1.2.1
+elasticsearch~=8.13.4
 Pillow~=9.3.0
 sentence-transformers~=2.2.2
 tqdm~=4.64.1
 
 # Eland for import NLP models
 eland>=8,<9
-torch~=1.11.0
+# torch>2 # torch is usually not so easy to install
 
 # required by '.env' and '.flaskenv' files
 python-dotenv~=0.21.1
